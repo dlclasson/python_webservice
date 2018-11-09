@@ -2,7 +2,7 @@ from os import curdir, sep
 import BaseHTTPServer
 
 HOST_NAME = ''
-PORT_NUMBER = 8080
+PORT_NUMBER = 8000
 
 class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_HEAD(self):
